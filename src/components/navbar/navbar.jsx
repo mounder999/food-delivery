@@ -17,7 +17,7 @@ const Navbar = ({setshowLogin}) => {
         <div className='navbar-right'>
             <img src={assets.search_icon}  alt='' className=''/>
             <div className='navbar-search-icon'>
-            <img src={assets.basket_icon}  alt='' className=''/>
+            <Link to='/cart'><img src={assets.basket_icon}  alt='' className=''/></Link>
             <div className='dot'></div>
 
             </div>
